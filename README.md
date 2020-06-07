@@ -41,7 +41,7 @@ Additive Gaussian sensor noise is also taken into account when predicting the ne
 
 During the update step, each particle's weight is updated based on LIDAR and RADAR readings of landmarks.
 
-An important step here is to associate each received measurement from the sensors with a landmark from the map. This is done taking the nearest neighbor (nearest landmark) for each measurement.
+An important step here is to associate each received measurement from the sensors with a landmark from the map. This is done by taking the nearest neighbor (nearest landmark) for each measurement.
 
 #### Resample
 
