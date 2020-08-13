@@ -7,20 +7,6 @@ The goal of this project is try to localize a vehicle that has been kidnapped an
 
 In this project I implement a 2 dimensional particle filter in C++. The particle filter will be given a map and some initial localization information (analogous to what a GPS would provide). At each time step the filter will also get observation and control data.
 
-### Running the Code
-This project involves [this simulator](https://github.com/udacity/self-driving-car-sim/releases).
-
-This repository includes two files that can be used to set up and install uWebSocketIO for either Linux or Mac systems. For windows you can use either Docker, VMware, or even Windows 10 Bash on Ubuntu to install uWebSocketIO.
-
-Once the install for uWebSocketIO is complete, the main program can be built and ran by doing the following from the project top directory.
-
-1. mkdir build
-2. cd build
-3. cmake ..
-4. make
-5. ./particle_filter
-
-
 ### Implementation of the Particle Filter
 
 The particle filter follows the following steps:
